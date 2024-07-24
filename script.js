@@ -1,80 +1,98 @@
-//for loops
+// for-of-loop
 
-
-
-//console.log("samir singh");
-//console.log("samir singh");
-//console.log("samir singh");
-//console.log("samir singh");
-
-
-
-
-//for (let count=1; count<=5;count++){
-  //  console.log("samir singh");
-//}
-
-
-
-
-// calculate sum of 1 to 5
-//let sum=0;
-//for(let i=1; i<=5; i++){
-  //  sum=sum+i;
-//}
-//console.log("sum=",sum);
-
-
-
-//print i 5 times
-//for (let i=1; i<=5;i++){
-  //  console.log("i=",i);
-//}
-
-//console.log("loop has ended");
-
-
-
-//while loop
-//let i=1;
-//while(i<=5){
-    //console.log("samir singh");
-  //  i++;
-//}
-
-
-//to print atleast one time
-//do while loop
-//let i=20
-//do{
-  //console.log("samir singh");
- // i++;
-//}while (i<=10);
-
-
-
-//to print 1 to 5 using do while loop
-// let i = 1;
-// do{
+// let str="dipendrasingh";
+// let size=0;
+// for (let i of str){// iterator
 //   console.log("i=",i);
-//   i++;
-// }while (i<=5);
+//   size++;
+// }
+// console.log("string size=",size);//13
 
 
 
-//print even number between 1 to 10
-// let i =0;
-// for(i=2; i<=10; i++){
-//   if( i % 2===0)
-//     console.log(i);
+
+
+//for in loop
+
+// let student={
+//   name: "samir singh",
+//   age:21,
+//   cgpa:8.9,
+//   ispass: true,
+// };
+
+// for (let key in student){
+//   console.log("key=", key,"value=",student[key]);
 // }
 
-//print prime numbers between 1 to 30
 
-let i =0;
-for(i=1; i<=30; i++){
-  if(  i/i)
-    console.log(i);
+
+
+
+
+
+//print all number from 0 to 100
+// for (let num=0; num<=100; num++){
+//   console.log("num=",num);
+// }
+
+
+
+
+
+
+//print all even number
+// for(let num=0; num<=100; num++){
+//   if(num%2===0){
+//       console.log("num=",num);
+//   }
+// }
+
+
+//create a game where you start with any random number.ask the user to keep guessing thw number until the user enters correct value
+// let gameNum=22;
+
+// let userNum = prompt("guess the game number:");
+
+// while(userNum!=gameNum){
+//   userNum = prompt("you entered wrong number, guess again:");
+
+// }
+// console.log("congrats,you entered the right number");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let number = 55;
+let usernumber = prompt(" Enter Your guessing Number from 0 to 100 :");
+
+for( let i=0; i <=100; i++){
+  if(usernumber < number){
+    console.log(" The number you guessed is too small . Choose a larger number");
+  }
+  else if( usernumber > number  ){
+    console.log(" The number you guessed is too large . Choose a smaller number");
+  }
+  else if( usernumber = number){
+    console.log(" The number you guessed is  correct.")
+    console.log(" Thank you for playing the game .")
+
+  }
 }
+
+
 
 
