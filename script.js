@@ -49,50 +49,30 @@
 // }
 
 
-//create a game where you start with any random number.ask the user to keep guessing thw number until the user enters correct value
-// let gameNum=22;
-
-// let userNum = prompt("guess the game number:");
-
-// while(userNum!=gameNum){
-//   userNum = prompt("you entered wrong number, guess again:");
-
-// }
-// console.log("congrats,you entered the right number");
 
 
 
 
+//strings
+
+
+let SpecialString=`hi my name is dipendra`;
+console.log(SpecialString);
+console.log(typeof SpecialString);
 
 
 
+//to uppercase()
+
+// let str=("samir singh");
+// let newStr=str.toUpperCase();
+// console.log(str);
+// console.log(newStr);
 
 
 
+//to lowercase
 
-
-
-
-
-
-
-let number = 55;
-let usernumber = prompt(" Enter Your guessing Number from 0 to 100 :");
-
-for( let i=0; i <=100; i++){
-  if(usernumber < number){
-    console.log(" The number you guessed is too small . Choose a larger number");
-  }
-  else if( usernumber > number  ){
-    console.log(" The number you guessed is too large . Choose a smaller number");
-  }
-  else if( usernumber = number){
-    console.log(" The number you guessed is  correct.")
-    console.log(" Thank you for playing the game .")
-
-  }
-}
-
-
-
-
+// let str=("SAMIR SINGH");
+// str = str.toLowerCase();
+// console.log(str);
