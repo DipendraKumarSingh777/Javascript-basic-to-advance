@@ -1,4 +1,5 @@
-let number = 55;
+//using for loop
+  let number = 55;
 let usernumber = prompt(" Enter Your guessing Number from 0 to 100 :");
 
 for( let i=0; i <=100; i++){
