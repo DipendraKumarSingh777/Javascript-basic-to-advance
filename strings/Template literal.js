@@ -17,7 +17,7 @@ console.log("the cost of",obj.item,"is",obj.price,"rupees");
 
 
 
-//using template literal we can write directly with the helo of back tick
+//using template literal we can write directly with the help of back tick
 
 let data={
     item:"shirt",
@@ -34,6 +34,6 @@ console.log(specialString);
 
 
 
-//template literals escape character
+//template literals escape character(break the line)
 let str="samir\nsingh";
 console.log(str.length);
