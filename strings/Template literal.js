@@ -16,7 +16,6 @@ console.log("the cost of",obj.item,"is",obj.price,"rupees");
 
 
 
-
 //using template literal we can write directly with the help of back tick
 
 let data={
