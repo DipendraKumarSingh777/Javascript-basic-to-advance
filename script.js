@@ -48,14 +48,46 @@
 
 
 //practice question for a given array with marks of students =[85,97,44,37,76,60] find the average marks of the entire class.
-let marks=[85,87,44,50,77,90];
+// let marks=[85,87,44,50,77,90];
 
-let sum=0;
-for (let val of marks){
-    sum+= val;
+// let sum=0;
+// for (let val of marks){
+//     sum+= val;
+// }
+
+// let avg=sum/marks.length;
+// console.log(`avg marks of the class = ${avg}`);
+
+
+
+
+//Function
+// function myFunction(){
+//     console.log("samir singh");
+//     console.log("jeewan thakur");
+// }
+
+// myFunction();
+// myFunction();
+
+
+
+// function merochora(){
+//     console.log("Ta malai buwa van ");
+// };
+
+// merochora();
+
+// function meroChora(msg){
+//     console.log(msg);
+// }
+// meroChora("mero chora aayo");
+
+
+function sum(a,b){
+    s=a+b;
+    return s;
 }
-
-let avg=sum/marks.length;
-console.log(`avg marks of the class = ${avg}`);
-
+let val= sum(5,8);
+console.log(val);
 
