@@ -61,33 +61,38 @@
 
 
 
-//Function
-// function myFunction(){
-//     console.log("samir singh");
-//     console.log("jeewan thakur");
-// }
-
-// myFunction();
-// myFunction();
 
 
 
-// function merochora(){
-//     console.log("Ta malai buwa van ");
+// function MyFunction(){
+//     console.log("my name is dipendra kumar singh");
 // };
 
-// merochora();
+// MyFunction();
 
-// function meroChora(msg){
+
+
+
+// function myfunction(msg){
 //     console.log(msg);
 // }
-// meroChora("mero chora aayo");
+// myfunction("dipendra kumar singh");
 
 
-function sum(a,b){
-    s=a+b;
-    return s;
-}
-let val= sum(5,8);
-console.log(val);
+
+
+//sum function
+// function sum(a,b){
+//     s=a+b;
+//     return s;
+// }
+// let val= sum(5,9);
+// console.log(val);
+
+
+
+//using arrow function
+const arrowSum=(a,b)=>{
+    console.log(a+b);
+};
 
