@@ -15,8 +15,8 @@
 
 
 3//
-function isPalindrome(str){
-    const reversed =str.split('').reverse().join('');
-    return str ===reversed;
-}
-console.log (isPalindrome('dsd'));
+// function isPalindrome(str){
+//     const reversed =str.split('').reverse().join('');
+//     return str ===reversed;
+// }
+// console.log (isPalindrome('dsd'));
