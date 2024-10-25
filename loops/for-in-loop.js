@@ -1,6 +1,6 @@
 //for in loop
 
-let student={
+let Student={
   name: "samir singh",
   age:21,
   cgpa:8.9,
