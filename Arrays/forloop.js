@@ -4,7 +4,7 @@ for(let character of hero){
 }
 
 
-let cities=["delhi","bangalore","mumbai","pune","hyderabad"];
+let cities=["Delhi","bangalore","mumbai","pune","hyderabad"];
 for (let city of cities){
     console.log(city);
 }
